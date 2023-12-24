@@ -1,0 +1,20 @@
+.footerContainer {
+  grid-area: footer;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0, 73, 184);
+  max-height: 40px;
+}
+
+.messageInput {
+  width: 95%;
+}
+
+.messageSendButton {
+  background-color: rgb(37, 150, 71);
+  border: none;
+  color: white;
+  margin-right: 16px;
+}

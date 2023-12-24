@@ -1,0 +1,18 @@
+.headerContainer {
+  grid-area: header;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0, 73, 184);
+  height: 36px;
+}
+
+.headerMain {
+  margin-left: 16px;
+}
+
+.headerUser {
+  margin-right: 16px;
+}

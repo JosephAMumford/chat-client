@@ -1,0 +1,24 @@
+.appContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main";
+}
+
+.appHeader {
+  grid-area: header;
+  overflow: hidden;
+}
+
+.appMain {
+  grid-area: main;
+  margin-top: 36px;
+  overflow-y: scroll;
+}
+
+.appSideBar {
+  grid-area: sidebar;
+  margin-top: 36px;
+  overflow: hidden;
+}

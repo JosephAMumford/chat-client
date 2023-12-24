@@ -1,0 +1,14 @@
+.sideBarUsers {
+  background-color: rgb(8, 176, 44);
+  height: 30%;
+}
+
+.sideBarChannels {
+  background-color: goldenrod;
+  height: 30%;
+}
+
+.sideBarDirect {
+  background-color: maroon;
+  height: 40%;
+}

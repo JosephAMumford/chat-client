@@ -1,0 +1,24 @@
+.chatWindowContainer {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  padding: 16px;
+  height: calc(100vh - 106px);
+  overflow-y: scroll;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: row;
+}
+.message {
+  display: flex;
+  padding: 8px;
+}
+
+.messageUser {
+  display: flex;
+  align-self: center;
+  padding: 4px;
+  border-radius: 4px;
+}
